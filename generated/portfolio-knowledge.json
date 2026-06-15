@@ -1,0 +1,682 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-15T15:52:14.963Z",
+  "entries": [
+    {
+      "id": "site-overview",
+      "type": "overview",
+      "title": "KAI | Project Execution & Problem Solving",
+      "aliases": [
+        "KAI",
+        "Kai",
+        "姜益栋",
+        "作品集",
+        "portfolio"
+      ],
+      "keywords": [
+        "Knowledge",
+        "Analyze",
+        "Innovate",
+        "知识建构",
+        "分析拆解",
+        "创新解决",
+        "project execution",
+        "项目执行"
+      ],
+      "priority": 90,
+      "sourceHash": "26b7b8c688ebdab02f7dac04f077950e7559f1186c1b202362b1ab2fc32e6185",
+      "facts": {
+        "zh": "KAI | Project Execution & Problem Solving 知识建构、分析拆解、创新解决 Let's build something meaningful together.",
+        "en": "KAI | Project Execution & Problem Solving Skilled and enjoys finding new ways to solve problems. Knowledge, Analyze, Innovate"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "kai-profile",
+      "type": "profile",
+      "title": "Kai / 姜益栋",
+      "aliases": [
+        "Kai",
+        "KAI",
+        "姜益栋",
+        "Jiang Yidong"
+      ],
+      "keywords": [
+        "Knowledge",
+        "Analyze",
+        "Innovate",
+        "知识建构",
+        "分析拆解",
+        "创新解决"
+      ],
+      "priority": 120,
+      "sourceHash": "764ee3bb71606713a7c29edeae75844c96c4aa1608ba6fcccfd69426827032cb",
+      "facts": {
+        "zh": "我是 Kai，中文名姜益栋，出生于 2004 年 6 月 15 日。我的关键词是 Knowledge 知识建构、Analyze 分析拆解、Innovate 创新解决。擅长并享受寻找解决问题的新方式，重视创新、感受与结果导向，也希望成为一个可以独当一面的人。",
+        "en": "I am Kai, Chinese name Jiang Yidong, born on June 15, 2004. My working principles are Knowledge, Analyze, and Innovate: building knowledge, breaking problems down, and creating solutions. I am skilled at and enjoy finding new ways to solve problems, with an emphasis on innovation, sensitivity, patience, and results. I want to become someone who can take full ownership."
+      },
+      "hardFacts": {
+        "en": {
+          "approach": [
+            "Knowledge",
+            "Analyze",
+            "Innovate"
+          ],
+          "birthday": "2004-06-15",
+          "name": "Jiang Yidong",
+          "values": [
+            "innovation",
+            "sensitivity",
+            "patience",
+            "results"
+          ]
+        },
+        "zh": {
+          "价值取向": [
+            "创新",
+            "感受",
+            "结果导向"
+          ],
+          "姓名": "姜益栋",
+          "工作方式": [
+            "知识建构",
+            "分析拆解",
+            "创新解决"
+          ],
+          "生日": "2004-06-15"
+        }
+      },
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "kai-reflection",
+      "type": "bio",
+      "title": "Project Reflection",
+      "aliases": [
+        "项目感想",
+        "项目经历",
+        "成长",
+        "Project Reflection"
+      ],
+      "keywords": [
+        "25+",
+        "200+",
+        "项目推进",
+        "问题拆解",
+        "复杂情况",
+        "落地"
+      ],
+      "priority": 92,
+      "sourceHash": "b521f1a332b86fc0b00d59cdf594acd9b926d172f7dc94205f8854ed2c14aa54",
+      "facts": {
+        "zh": "这三个月里，我参与了 25+ 个不同规模的项目，累计覆盖 200+ 人次。这些项目从早期探索尝试，到后期可以独立推动完整落地，类型和成熟度差异很大。一开始经常遇到流程不清晰、推进受阻等问题，但基本都能通过持续调整和解决问题把项目完整收尾。也有一些完成度较高、反馈较强的项目，让我清晰感受到把不确定的事情真正做出来本身就很有价值。这些经历让我逐渐形成自己的思考和解决问题方式：拆解问题、推进项目，并在复杂情况下把事情落地。期待以后继续学习更多。",
+        "en": "Over the past three months, I have participated in more than 25 projects of different sizes, reaching over 200 participants in total. They ranged from early explorations to projects I could independently drive through full delivery. The process was not always smooth: unclear workflows and blocked progress were common at first, but I generally brought projects to completion by continuously adjusting and solving problems. Several well-finished projects also received strong feedback and showed me the value of turning uncertainty into something real. These experiences shaped how I break problems down, move projects forward, and deliver under complex conditions. I look forward to learning more."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "kai-resume-experience",
+      "type": "resume",
+      "title": "Resume Experience",
+      "aliases": [
+        "简历",
+        "实习经历",
+        "小红书运营",
+        "Resume"
+      ],
+      "keywords": [
+        "符李",
+        "增长业务部",
+        "线上零售",
+        "小红书",
+        "内容运营",
+        "A/B 测试"
+      ],
+      "priority": 78,
+      "sourceHash": "da49a553a4bf63fb2a1b07e7f23be25d7c32213fdfaa59eeb607249606b7c390",
+      "facts": {
+        "zh": "公开简历图片显示，Kai 曾在符李增长业务部线上零售方向实习，时间标注为 2025.9-2026.1。工作包括抖音与小红书平台品牌线上营销、产品手卡与卖点合集、基于人群需求和产品优势撰写图文与口播文案、品牌合作与达人沟通、平台店铺运营、营销活动策划，以及电商人群策略 A/B 测试。简历还记录了自 2023.4 至今运营个人小红书账号的实践，包括流量规律分析、发布时间与目标受众定位、拍摄与广告内容制作、内容优化、互动提升和运营复盘。简历列出的技能包括英语六级、Excel 熟练使用、PPT 制作和 C2 驾照。",
+        "en": "Kai's public resume image records an internship in online retail within Fu Li's growth business department from September 2025 to January 2026. Responsibilities included Douyin and Xiaohongshu brand marketing, product selling-point materials, audience-informed image and spoken copy, brand and creator collaboration, storefront operations, campaign planning, and e-commerce audience A/B testing. It also records an independently operated Xiaohongshu account since April 2023, covering traffic pattern analysis, publishing timing and audience positioning, photography and advertising content production, content optimization, engagement improvement, and performance review. Listed skills include CET-6 English, strong Excel use, polished presentation production, and a C2 driving license."
+      },
+      "hardFacts": {},
+      "links": [
+        "/kai/resume.png"
+      ],
+      "source": "resume"
+    },
+    {
+      "id": "kai-workflow",
+      "type": "skills",
+      "title": "Workflow & Delivery",
+      "aliases": [
+        "工作流优化",
+        "端到端交付",
+        "Workflow optimization",
+        "End-to-end project delivery"
+      ],
+      "keywords": [
+        "Workflow optimization",
+        "End-to-end project delivery",
+        "Business problem solving"
+      ],
+      "priority": 88,
+      "sourceHash": "3cdb196dfc8c4121dedce02904d02f898d37c14787c333bccb5448a53cf5c5dd",
+      "facts": {
+        "zh": "Kai 的合作方向包括工作流优化、端到端项目执行与交付，以及业务问题解决。他重视先理解问题和受众，再拆解流程、推动协作并以结果验证方案。",
+        "en": "Kai focuses on workflow optimization, end-to-end project execution and delivery, and business problem solving. He starts by understanding the problem and audience, then breaks down the workflow, coordinates execution, and validates the solution through outcomes."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "profile",
+      "type": "profile",
+      "title": "Personal Profile",
+      "aliases": [
+        "个人档案",
+        "Personal Profile"
+      ],
+      "keywords": [
+        "个人档案",
+        "Personal Profile",
+        "KAI",
+        "（姜益栋）",
+        "擅长并享受寻找解决问题的新方式。",
+        "通过知识建构",
+        "分析拆解与创新解决，把不确定的任务推进到完整交付。",
+        "创新",
+        "感受",
+        "结果导向"
+      ],
+      "priority": 100,
+      "sourceHash": "9667fe77df223d424a33bd0856403c709f07610a458cfbff2d156228c9d48ef7",
+      "facts": {
+        "zh": "KAI （姜益栋） 擅长并享受寻找解决问题的新方式。 通过知识建构、分析拆解与创新解决，把不确定的任务推进到完整交付。 创新 · 感受 · 结果导向",
+        "en": "KAI (Jiang Yidong) Skilled at and enjoys finding new ways to solve problems. Uses knowledge building, analysis, and innovation to move uncertain work through complete delivery. Innovation · Sensitivity · Results"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "motto",
+      "type": "dossier",
+      "title": "Motto",
+      "aliases": [
+        "座右铭",
+        "Motto"
+      ],
+      "keywords": [
+        "座右铭",
+        "Motto",
+        "创新",
+        "感受",
+        "结果导向",
+        "—",
+        "KAI",
+        "patience"
+      ],
+      "priority": 30,
+      "sourceHash": "7a16c2fea0ba0f28c7d8e3d59c7b346a9003a9a975a1bfa3a8a1df2fffe0d2af",
+      "facts": {
+        "zh": "创新 · 感受 · 结果导向 — KAI / patience",
+        "en": "Innovation · Sensitivity · Results — KAI / patience"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "skills",
+      "type": "dossier",
+      "title": "Collaboration & Skills",
+      "aliases": [
+        "合作与能力",
+        "Collaboration & Skills"
+      ],
+      "keywords": [
+        "合作与能力",
+        "Collaboration & Skills",
+        "项目方法",
+        "知识建构",
+        "分析拆解",
+        "创新解决",
+        "执行方向",
+        "工作流优化",
+        "端到端交付",
+        "业务问题解决"
+      ],
+      "priority": 85,
+      "sourceHash": "bbc4c1339ba38257bd4fa4b4e94d1c1e30966f36d918fcbb3b7ac3820d52f201",
+      "facts": {
+        "zh": "项目方法 知识建构 分析拆解 创新解决 执行方向 工作流优化 端到端交付 业务问题解决",
+        "en": "Project Method Knowledge Analyze Innovate Execution Workflow Optimization End-to-end Delivery Business Problem Solving"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "education",
+      "type": "dossier",
+      "title": "Ambition",
+      "aliases": [
+        "个人目标",
+        "Ambition"
+      ],
+      "keywords": [
+        "个人目标",
+        "Ambition",
+        "想成为一个可以独当一面的人",
+        "持续学习如何拆解问题",
+        "推进项目，并在复杂情况下把事情完整落地。"
+      ],
+      "priority": 70,
+      "sourceHash": "8969ac81d2a8aa8cee408b6741d58f40774cef511ac759ea4b89d32f34c9cf09",
+      "facts": {
+        "zh": "想成为一个可以独当一面的人 持续学习如何拆解问题、推进项目，并在复杂情况下把事情完整落地。",
+        "en": "Become someone who can take full ownership. Keep learning how to break problems down, move projects forward, and deliver under complex conditions."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "experience",
+      "type": "dossier",
+      "title": "Proof",
+      "aliases": [
+        "工作证明",
+        "Proof"
+      ],
+      "keywords": [
+        "工作证明",
+        "Proof",
+        "Workflow",
+        "optimization",
+        "从问题与受众出发梳理流程。",
+        "End-to-end",
+        "project",
+        "delivery",
+        "持续推进协作并把项目完整收尾。"
+      ],
+      "priority": 75,
+      "sourceHash": "74c32fcae75b222d562b9c9a6c4d1f9c649440975be8e641c93d3b277aa9a5dd",
+      "facts": {
+        "zh": "Workflow optimization 从问题与受众出发梳理流程。 End-to-end project delivery 持续推进协作并把项目完整收尾。",
+        "en": "Workflow optimization Clarify the problem, audience, and operating process. End-to-end project delivery Coordinate execution and bring the work to completion."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "bio",
+      "type": "dossier",
+      "title": "About Me",
+      "aliases": [
+        "个人简介",
+        "About Me"
+      ],
+      "keywords": [
+        "个人简介",
+        "About Me",
+        "三个月里参与",
+        "25+",
+        "个不同规模的项目，累计覆盖",
+        "200+",
+        "人次。",
+        "从流程不清晰和推进受阻中持续调整，把不确定的事情真正做出来。",
+        "逐渐形成拆解问题",
+        "推进项目和在复杂情况下完成落地的方法。"
+      ],
+      "priority": 80,
+      "sourceHash": "44473d86be11ea957ff780a5105fc27180c0607d1bae3174a691c17cf6a1cb34",
+      "facts": {
+        "zh": "三个月里参与 25+ 个不同规模的项目，累计覆盖 200+ 人次。 从流程不清晰和推进受阻中持续调整，把不确定的事情真正做出来。 逐渐形成拆解问题、推进项目和在复杂情况下完成落地的方法。",
+        "en": "Over three months I participated in 25+ projects, reaching 200+ people in total. I kept adjusting through unclear workflows and blocked progress to turn uncertainty into delivered work. These experiences shaped how I break down problems, move projects forward, and deliver under complexity."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "contact",
+      "type": "dossier",
+      "title": "Contact",
+      "aliases": [
+        "联系方式",
+        "Contact"
+      ],
+      "keywords": [
+        "联系方式",
+        "Contact",
+        "Email",
+        "2280207099@qq.com",
+        "手机",
+        "13576085887",
+        "微信",
+        "Aurorahv"
+      ],
+      "priority": 65,
+      "sourceHash": "d970d27831144ac60905a7b414c507b0cc1d6fe96574362dec782e2c1068ba1e",
+      "facts": {
+        "zh": "Email 2280207099@qq.com 手机 13576085887 微信 Aurorahv",
+        "en": "Email 2280207099@qq.com Phone 13576085887 WeChat Aurorahv"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "interests",
+      "type": "dossier",
+      "title": "Interests",
+      "aliases": [
+        "兴趣标签",
+        "Interests"
+      ],
+      "keywords": [
+        "兴趣标签",
+        "Interests",
+        "创新",
+        "感受",
+        "结果导向",
+        "patience"
+      ],
+      "priority": 40,
+      "sourceHash": "3d0516523eb33415b1c32ab8afa086d30b51770eac48e64777967fabb6bfa67e",
+      "facts": {
+        "zh": "创新 感受 结果导向 patience",
+        "en": "Innovation Sensitivity Results Patience"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "spider",
+      "type": "dossier",
+      "title": "Birth File",
+      "aliases": [
+        "出生档案",
+        "Birth File"
+      ],
+      "keywords": [
+        "出生档案",
+        "Birth File",
+        "born",
+        "in",
+        "06",
+        "15",
+        "2004"
+      ],
+      "priority": 20,
+      "sourceHash": "69a5114cb289ae68c8414617093bdead60f96633a491c473a831a0b6887c5272",
+      "facts": {
+        "zh": "born in 06/15/2004",
+        "en": "born in 06/15/2004"
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "location",
+      "type": "dossier",
+      "title": "Mountain Goal",
+      "aliases": [
+        "雪山目标",
+        "Mountain Goal"
+      ],
+      "keywords": [
+        "雪山目标",
+        "Mountain Goal",
+        "25岁之前攀登一座雪山"
+      ],
+      "priority": 45,
+      "sourceHash": "6250c0580700710b4cfa4f4f2a3f446406be4a07b4fd695d796f3ad15208023f",
+      "facts": {
+        "zh": "25岁之前攀登一座雪山",
+        "en": "Climb a snow mountain before 25."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "project-index",
+      "type": "index",
+      "title": "Projects",
+      "aliases": [
+        "项目",
+        "作品",
+        "projects",
+        "portfolio"
+      ],
+      "keywords": [
+        "骁龙 vivo",
+        "snapdragon-vivo",
+        "骁龙 OPPO",
+        "snapdragon-oppo",
+        "骁龙小米",
+        "snapdragon-xiaomi",
+        "恒洁",
+        "hengjie"
+      ],
+      "priority": 55,
+      "sourceHash": "a96069bc22a073e6898b730415391ced1cd4e5a28071baf699037a1c24c5cbec",
+      "facts": {
+        "zh": "当前公开项目：骁龙 vivo、骁龙 OPPO、骁龙小米、恒洁。",
+        "en": "Current public projects: 骁龙 vivo, 骁龙 OPPO, 骁龙小米, 恒洁."
+      },
+      "hardFacts": {},
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "project-snapdragon-vivo",
+      "type": "project",
+      "title": "骁龙 vivo",
+      "aliases": [
+        "snapdragon-vivo",
+        "骁龙 vivo"
+      ],
+      "keywords": [
+        "品牌合作",
+        "项目执行",
+        "Brand Collaboration",
+        "Project Execution",
+        "项目推进",
+        "工作流优化",
+        "交付",
+        "Execution",
+        "Workflow",
+        "Delivery",
+        "端到端交付",
+        "Brand collaboration",
+        "End-to-end delivery"
+      ],
+      "priority": 60,
+      "sourceHash": "4e119190ddc7461ec5cf3a3c6b9bf1b37c0db7e490dfa00fec3a291839e815ca",
+      "facts": {
+        "zh": "围绕骁龙与 vivo 的合作项目，承担项目推进与交付工作。 公开作品页以合作视觉为主要展示。Kai 负责把需求拆解、协作推进与交付结果串联起来。",
+        "en": "A Snapdragon and vivo collaboration supported through project execution and delivery. The public portfolio presents the collaboration through its campaign visual. Kai connected requirement breakdown, coordination, and delivery outcomes."
+      },
+      "hardFacts": {
+        "en": {
+          "highlights": [
+            "Brand collaboration",
+            "End-to-end delivery"
+          ],
+          "stack": "Execution / Workflow / Delivery",
+          "type": "Brand Collaboration / Project Execution"
+        },
+        "zh": {
+          "亮点": [
+            "品牌合作",
+            "端到端交付"
+          ],
+          "技术栈": "项目推进 / 工作流优化 / 交付",
+          "类型": "品牌合作 / 项目执行"
+        }
+      },
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "project-snapdragon-oppo",
+      "type": "project",
+      "title": "骁龙 OPPO",
+      "aliases": [
+        "snapdragon-oppo",
+        "骁龙 OPPO"
+      ],
+      "keywords": [
+        "品牌合作",
+        "项目执行",
+        "Brand Collaboration",
+        "Project Execution",
+        "项目推进",
+        "工作流优化",
+        "交付",
+        "Execution",
+        "Workflow",
+        "Delivery",
+        "问题拆解",
+        "Brand collaboration",
+        "Problem breakdown"
+      ],
+      "priority": 60,
+      "sourceHash": "2effaa4657fcd4d58cebfcbd282792e3d681e15396e57d596307394ee73ac6ae",
+      "facts": {
+        "zh": "围绕骁龙与 OPPO 的合作项目，承担项目推进与交付工作。 公开作品页以合作视觉为主要展示，强调从问题拆解到最终落地的完整推进。",
+        "en": "A Snapdragon and OPPO collaboration supported through project execution and delivery. The public portfolio presents the collaboration through its campaign visual, emphasizing the full path from problem breakdown to delivery."
+      },
+      "hardFacts": {
+        "en": {
+          "highlights": [
+            "Brand collaboration",
+            "Problem breakdown"
+          ],
+          "stack": "Execution / Workflow / Delivery",
+          "type": "Brand Collaboration / Project Execution"
+        },
+        "zh": {
+          "亮点": [
+            "品牌合作",
+            "问题拆解"
+          ],
+          "技术栈": "项目推进 / 工作流优化 / 交付",
+          "类型": "品牌合作 / 项目执行"
+        }
+      },
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "project-snapdragon-xiaomi",
+      "type": "project",
+      "title": "骁龙小米",
+      "aliases": [
+        "snapdragon-xiaomi",
+        "骁龙小米"
+      ],
+      "keywords": [
+        "品牌合作",
+        "项目执行",
+        "Brand Collaboration",
+        "Project Execution",
+        "项目推进",
+        "工作流优化",
+        "交付",
+        "Execution",
+        "Workflow",
+        "Delivery",
+        "结果导向",
+        "Brand collaboration",
+        "Results orientation"
+      ],
+      "priority": 60,
+      "sourceHash": "8d722405ddcdedff686610c339345c0cc9bc792a007a2b235c0a119f849aeeeb",
+      "facts": {
+        "zh": "围绕骁龙与小米的合作项目，承担项目推进与交付工作。 公开作品页以合作视觉为主要展示，体现 Kai 对复杂流程、协作节点与结果交付的关注。",
+        "en": "A Snapdragon and Xiaomi collaboration supported through project execution and delivery. The public portfolio presents the collaboration through its campaign visual and reflects Kai's focus on complex workflows, coordination points, and outcomes."
+      },
+      "hardFacts": {
+        "en": {
+          "highlights": [
+            "Brand collaboration",
+            "Results orientation"
+          ],
+          "stack": "Execution / Workflow / Delivery",
+          "type": "Brand Collaboration / Project Execution"
+        },
+        "zh": {
+          "亮点": [
+            "品牌合作",
+            "结果导向"
+          ],
+          "技术栈": "项目推进 / 工作流优化 / 交付",
+          "类型": "品牌合作 / 项目执行"
+        }
+      },
+      "links": [],
+      "source": "website"
+    },
+    {
+      "id": "project-hengjie",
+      "type": "project",
+      "title": "恒洁",
+      "aliases": [
+        "hengjie",
+        "恒洁"
+      ],
+      "keywords": [
+        "品牌合作",
+        "项目执行",
+        "Brand Collaboration",
+        "Project Execution",
+        "交付",
+        "Execution",
+        "Delivery",
+        "完整收尾",
+        "结果交付",
+        "Complete delivery",
+        "Outcome focused"
+      ],
+      "priority": 60,
+      "sourceHash": "15e87cd0d6349c4f2b600fe6e3ea384b4ff9e4de2d1a87da186434bc74a1da85",
+      "facts": {
+        "zh": "恒洁品牌合作项目，围绕需求理解、执行推进与结果交付展开。 公开作品页以合作视觉为主要展示。Kai 注重在推进过程中持续调整，并把不确定任务完整收尾。",
+        "en": "A HEGII brand collaboration centered on requirement understanding, execution, and delivery. The public portfolio presents the collaboration through its campaign visual. Kai focuses on continuous adjustment and bringing uncertain work to a complete finish."
+      },
+      "hardFacts": {
+        "en": {
+          "highlights": [
+            "Complete delivery",
+            "Outcome focused"
+          ],
+          "stack": "Brand Collaboration / Execution / Delivery",
+          "type": "Brand Collaboration / Project Execution"
+        },
+        "zh": {
+          "亮点": [
+            "完整收尾",
+            "结果交付"
+          ],
+          "技术栈": "品牌合作 / 项目执行 / 交付",
+          "类型": "品牌合作 / 项目执行"
+        }
+      },
+      "links": [],
+      "source": "website"
+    }
+  ]
+}

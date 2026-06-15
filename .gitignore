@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.codex/
+
+.DS_Store
+
+.env
+.env.*
+!.env.example
+
+private/
+generated/*.tmp
