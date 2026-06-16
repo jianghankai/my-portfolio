@@ -175,7 +175,13 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
   background: #030303;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -185,6 +191,7 @@ body {
   font-family: "Manrope", sans-serif;
   line-height: 1.5;
   overflow-x: hidden;
+  -ms-overflow-style: none;
   background: #020202;
 }
 
