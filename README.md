@@ -52,17 +52,17 @@ npm run build
 
 当前结构：
 
-- Issue 03：`Personal Dossier`
+- Issue 03：`About Me`
 - Issue 04：`Collaboration Network`
-- Issue 05：`Selected Projects`
+- Issue 05：`Project Delivery`
 - Issue 06：`Contact`
 
 右上角 `Issues` 展开后的菜单也在 `index.html` 的 `.topbar-nav`：
 
 ```html
-<a href="#about">Dossier</a>
+<a href="#about">About</a>
 <a href="#skills">Partners</a>
-<a href="#projects">Projects</a>
+<a href="#projects">Delivery</a>
 <a href="#contact">Contact</a>
 ```
 
