@@ -9773,6 +9773,24 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   contain-intrinsic-size: 640px;
 }
 
+.name-section .section-heading {
+  width: min(100%, 58rem);
+  margin-inline: auto;
+  margin-bottom: clamp(3.8rem, 5.8vw, 5.2rem);
+}
+
+.name-section .section-heading--split {
+  grid-template-columns: minmax(13.5rem, 0.72fr) minmax(22rem, 1.28fr);
+  align-items: center;
+  column-gap: clamp(3rem, 7vw, 6.5rem);
+}
+
+.name-section .section-summary {
+  justify-self: end;
+  max-width: 42rem;
+  padding-top: 0.7rem;
+}
+
 .name-section::after {
   bottom: -2.2rem;
   height: 4.4rem;
@@ -9780,7 +9798,7 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 }
 
 .name-poster {
-  margin-top: clamp(0.8rem, 2vw, 1.4rem);
+  margin-top: 0;
 }
 
 .name-stack {
@@ -10178,6 +10196,22 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 @media (max-width: 800px) {
   .name-section.section-shell {
     padding-bottom: 1.6rem;
+  }
+
+  .name-section .section-heading {
+    width: min(100%, 33rem);
+    margin-bottom: 2.2rem;
+  }
+
+  .name-section .section-heading--split {
+    grid-template-columns: 1fr;
+    row-gap: 0.9rem;
+  }
+
+  .name-section .section-summary {
+    justify-self: start;
+    max-width: 24rem;
+    padding-top: 0;
   }
 
   .name-stack {
