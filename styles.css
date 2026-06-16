@@ -9803,14 +9803,14 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 
 .name-stack {
   width: min(100%, 45rem);
-  min-height: clamp(23rem, 34vw, 29rem);
+  min-height: clamp(28rem, 41vw, 35rem);
   padding-top: 0.2rem;
   padding-bottom: 0;
 }
 
 .name-ghost {
-  font-size: clamp(6.6rem, 13vw, 11rem);
-  line-height: 0.68;
+  font-size: clamp(6.2rem, 12vw, 10.4rem);
+  line-height: 0.82;
 }
 
 .name-row {
@@ -9818,7 +9818,7 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 }
 
 .name-row + .name-row {
-  margin-top: clamp(0.35rem, 0.9vw, 0.58rem);
+  margin-top: clamp(2.35rem, 4.8vw, 4.2rem);
 }
 
 .issue-section--about.section-shell {
@@ -10215,7 +10215,7 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   }
 
   .name-stack {
-    min-height: 21rem;
+    min-height: 26rem;
     width: min(100%, 33rem);
   }
 
