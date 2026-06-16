@@ -12,13 +12,13 @@ import {
 const profileBlock = {
   id: "profile",
   type: "profile",
-  title: "EIDDIE",
-  aliases: ["贾永硕", "EIDDIE"],
-  keywords: ["前端设计师", "frontend designer"],
+  title: "Sample Profile",
+  aliases: ["示例作者", "Sample Profile"],
+  keywords: ["作品集作者", "portfolio author"],
   priority: 100,
   content: {
-    zh: "EIDDIE 是一名前端设计师。",
-    en: "EIDDIE is a frontend designer.",
+    zh: "Sample Profile 是一名作品集作者。",
+    en: "Sample Profile is a test profile.",
   },
   links: [],
 };
@@ -40,29 +40,29 @@ const skillsBlock = {
 const yeverseBlock = {
   id: "project-yeverse",
   type: "project",
-  title: "YeVerse",
-  aliases: ["Ye Verse"],
-  keywords: ["Three.js", "音乐档案", "artist archive"],
+  title: "Project Atlas",
+  aliases: ["Project Atlas"],
+  keywords: ["Three.js", "项目档案", "artist archive"],
   priority: 60,
   content: {
-    zh: "YeVerse 是一个沉浸式音乐人物档案。",
-    en: "YeVerse is an immersive artist archive.",
+    zh: "Project Atlas 是一个沉浸式项目档案。",
+    en: "Project Atlas is an immersive project archive.",
   },
-  links: ["https://ye.eiddie.me"],
+  links: ["https://example.com/project-atlas"],
 };
 
 test("hashKnowledgeBlock ignores object key order and repeated whitespace", () => {
   const first = {
     ...yeverseBlock,
-    content: { zh: "YeVerse  是一个\n沉浸式档案。", en: "Artist archive" },
+    content: { zh: "Project Atlas  是一个\n沉浸式档案。", en: "Project archive" },
   };
   const second = {
-    content: { en: "Artist archive", zh: "YeVerse 是一个 沉浸式档案。" },
+    content: { en: "Project archive", zh: "Project Atlas 是一个 沉浸式档案。" },
     priority: 60,
-    keywords: ["Three.js", "音乐档案", "artist archive"],
-    aliases: ["Ye Verse"],
-    links: ["https://ye.eiddie.me"],
-    title: "YeVerse",
+    keywords: ["Three.js", "项目档案", "artist archive"],
+    aliases: ["Project Atlas"],
+    links: ["https://example.com/project-atlas"],
+    title: "Project Atlas",
     type: "project",
     id: "project-yeverse",
   };
@@ -74,8 +74,8 @@ test("mergeKnowledgeEntries reuses entries whose source hash has not changed", (
   const previous = {
     ...buildDeterministicEntry(yeverseBlock),
     facts: {
-      zh: "已由模型压缩的 YeVerse 摘要。",
-      en: "Previously compressed YeVerse summary.",
+      zh: "已由模型压缩的 Project Atlas 摘要。",
+      en: "Previously compressed Project Atlas summary.",
     },
   };
 
@@ -95,11 +95,11 @@ test("selectKnowledgeEntries ranks a directly named project and always includes 
     type: "index",
     title: "Projects",
     aliases: ["项目", "作品"],
-    keywords: ["YeVerse", "LyricFlow"],
+    keywords: ["Project Atlas", "Project Beacon"],
     priority: 55,
     content: {
-      zh: "当前公开项目：YeVerse、LyricFlow。",
-      en: "Current public projects: YeVerse, LyricFlow.",
+      zh: "当前公开项目：Project Atlas、Project Beacon。",
+      en: "Current public projects: Project Atlas, Project Beacon.",
     },
     links: [],
   };
@@ -109,7 +109,7 @@ test("selectKnowledgeEntries ranks a directly named project and always includes 
 
   const selected = selectKnowledgeEntries({
     knowledge,
-    question: "YeVerse 的 3D 专辑交互是怎么做的？",
+    question: "Project Atlas 的 3D 场景交互是怎么做的？",
     language: "zh",
     limit: 3,
   });
@@ -144,6 +144,6 @@ test("formatKnowledgeContext uses only the requested language", () => {
     "en",
   );
 
-  assert.match(context, /immersive artist archive/);
+  assert.match(context, /immersive project archive/);
   assert.doesNotMatch(context, /沉浸式/);
 });

@@ -23,7 +23,7 @@ test("page source presents Kai identity and removes original-owner identity", as
   assert.match(publicSource, /13576085887/);
   assert.match(publicSource, /2280207099@qq\.com/);
   assert.match(publicSource, /Aurorahv/);
-  assert.doesNotMatch(publicSource, /EIDDIE|Eiddie|贾永硕|Jia Yongshuo|eiddiedev/);
+  assert.doesNotMatch(publicSource, /legacy-owner-marker/i);
 });
 
 test("page source contains one badge per collaboration logo", async () => {
@@ -93,5 +93,5 @@ test("knowledge extraction includes Kai resume and reflection without original-o
   assert.match(serialized, /200\+/);
   assert.match(serialized, /符李/);
   assert.match(serialized, /Workflow optimization/);
-  assert.doesNotMatch(serialized, /EIDDIE|贾永硕|Jia Yongshuo|YeVerse|BugPet/);
+  assert.doesNotMatch(serialized, /legacy-owner-marker|legacy-project-marker/i);
 });

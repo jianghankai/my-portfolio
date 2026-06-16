@@ -7,11 +7,11 @@ import { buildDeterministicEntry } from "../server/knowledge-core.mjs";
 const profile = {
   id: "profile",
   type: "profile",
-  title: "EIDDIE",
-  aliases: ["贾永硕"],
-  keywords: ["frontend designer"],
+  title: "Sample Profile",
+  aliases: ["示例作者"],
+  keywords: ["portfolio author"],
   priority: 100,
-  content: { zh: "前端设计师。", en: "Frontend designer." },
+  content: { zh: "作品集作者。", en: "Frontend designer." },
   links: [],
   source: "website",
 };

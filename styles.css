@@ -5411,7 +5411,7 @@ html[lang="en"] .folder-note--sticky p {
 }
 
 .project-card__button--logo-burst .project-card__logo-mark::before {
-  background: center / contain no-repeat var(--cover-logo-asset, url("/projects/edreading/edreading-logo-icon.png"));
+  background: center / contain no-repeat var(--cover-logo-asset, none);
   filter:
     grayscale(1)
     saturate(0.12)
@@ -5748,11 +5748,11 @@ html[lang="en"] .folder-note--sticky p {
 .project-card__button--scriptmind-wave .project-card__logo-mark::after {
   inset: 0;
   background: linear-gradient(135deg, #79eaff 0%, #ffffff 42%, #ffb164 68%, #ff7d2f 100%);
-  -webkit-mask-image: var(--cover-logo-asset, url("/projects/scriptmind/scriptmind-logo.png"));
+  -webkit-mask-image: var(--cover-logo-asset, none);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: contain;
-  mask-image: var(--cover-logo-asset, url("/projects/scriptmind/scriptmind-logo.png"));
+  mask-image: var(--cover-logo-asset, none);
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
@@ -6328,7 +6328,7 @@ html[lang="en"] .folder-note--sticky p {
 }
 
 .project-card__button--bugpet-pixel .project-card__logo-mark::before {
-  background: center / contain no-repeat var(--cover-logo-asset, url("/projects/bugpet/bugpet-logo.png"));
+  background: center / contain no-repeat var(--cover-logo-asset, none);
   filter:
     grayscale(1)
     saturate(0.08)
@@ -7000,7 +7000,7 @@ html[lang="en"] .folder-note--sticky p {
   transform: translate3d(0.08rem, -0.03rem, 0);
 }
 
-/* Fut.Map poster-led override */
+/* Poster-led project-card override */
 .project-card__button--football-ink {
   --hover-shift-x: -0.04rem;
   --hover-lift: -1rem;
@@ -7063,7 +7063,7 @@ html[lang="en"] .folder-note--sticky p {
   clip-path: none;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(5, 7, 10, 0.14) 34%, rgba(5, 7, 10, 0.88) 100%),
-    var(--cover-art-asset, url("/projects/futmap/futmap-cover-art.jpg"));
+    var(--cover-art-asset, none);
   background-size: cover;
   background-position: left top;
   opacity: 0;
@@ -7132,7 +7132,7 @@ html[lang="en"] .folder-note--sticky p {
 
 .project-card__button--football-ink .project-card__logo-mark::before {
   inset: 0;
-  background: center / contain no-repeat var(--cover-logo-asset, url("/projects/futmap/futmap-logo-fut.png"));
+  background: center / contain no-repeat var(--cover-logo-asset, none);
   filter:
     brightness(0.92)
     contrast(1.02)
@@ -7264,7 +7264,7 @@ html[lang="en"] .folder-note--sticky p {
 .project-card__button--football-ink:focus-visible .project-card__logo-mark::before,
 .project-card__button--football-ink.is-returning .project-card__logo-mark::before,
 .project-card__button--football-ink.is-active-scene .project-card__logo-mark::before {
-  background: center / contain no-repeat var(--cover-logo-asset, url("/projects/futmap/futmap-logo-fut.png"));
+  background: center / contain no-repeat var(--cover-logo-asset, none);
   filter:
     brightness(1)
     contrast(1.04)
