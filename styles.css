@@ -9820,11 +9820,12 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   background: center / contain no-repeat var(--icon) !important;
   -webkit-mask-image: none !important;
   mask-image: none !important;
-  opacity: 0.7;
+  opacity: 0.9;
   filter:
     brightness(0)
-    invert(0.78)
-    opacity(0.82)
+    invert(0.94)
+    opacity(0.96)
+    drop-shadow(0 0 14px rgba(255, 255, 255, 0.08))
     drop-shadow(0 10px 18px rgba(0, 0, 0, 0.32));
 }
 
@@ -9848,18 +9849,16 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   transform: scale(1.07);
 }
 
-.tool-badge--1 { top: 34%; left: 19%; right: auto; bottom: auto; }
-.tool-badge--2 { top: 25%; left: 39%; right: auto; bottom: auto; }
-.tool-badge--3 { top: 31%; left: 62%; right: auto; bottom: auto; }
-.tool-badge--4 { top: 47%; left: 15%; right: auto; bottom: auto; }
-.tool-badge--5 { top: 48%; left: 39%; right: auto; bottom: auto; }
-.tool-badge--6 { top: 49%; left: 63%; right: auto; bottom: auto; }
-.tool-badge--7 { top: 64%; left: 20%; right: auto; bottom: auto; }
-.tool-badge--8 { top: 66%; left: 42%; right: auto; bottom: auto; }
-.tool-badge--9 { top: 65%; left: 64%; right: auto; bottom: auto; }
-.tool-badge--10 { top: 79%; left: 17%; right: auto; bottom: auto; }
-.tool-badge--11 { top: 80%; left: 41%; right: auto; bottom: auto; }
-.tool-badge--12 { top: 80%; left: 65%; right: auto; bottom: auto; }
+.tool-badge--1 { top: 33%; left: 16%; right: auto; bottom: auto; }
+.tool-badge--2 { top: 24%; left: 37%; right: auto; bottom: auto; }
+.tool-badge--3 { top: 30%; left: 61%; right: auto; bottom: auto; }
+.tool-badge--4 { top: 25%; left: 82%; right: auto; bottom: auto; }
+.tool-badge--5 { top: 50%; left: 25%; right: auto; bottom: auto; }
+.tool-badge--6 { top: 49%; left: 50%; right: auto; bottom: auto; }
+.tool-badge--7 { top: 50%; left: 75%; right: auto; bottom: auto; }
+.tool-badge--8 { top: 71%; left: 18%; right: auto; bottom: auto; }
+.tool-badge--9 { top: 72%; left: 48%; right: auto; bottom: auto; }
+.tool-badge--10 { top: 71%; left: 78%; right: auto; bottom: auto; }
 
 .tool-badge--3,
 .tool-badge--9 {
@@ -10010,7 +10009,15 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 }
 
 .contact-intro h2 {
-  max-width: 14.4ch;
+  max-width: 16ch;
+}
+
+.contact-title {
+  gap: clamp(0.24rem, 0.78vw, 0.68rem);
+}
+
+.contact-title__line {
+  line-height: 0.94;
 }
 
 .contact-copy {
@@ -10021,13 +10028,19 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   content: none;
 }
 
+.contact-link--phone {
+  --contact-link-accent: #8bd2ff;
+  --contact-strip-image: url("/kai/contact/phone.png");
+}
+
 .contact-link__hover-art {
   z-index: 4;
   object-fit: cover;
   object-position: center;
-  opacity: 0;
+  opacity: 1;
+  clip-path: inset(0 100% 0 0);
   transform: none;
-  transition: opacity 170ms ease;
+  transition: clip-path 680ms cubic-bezier(0.22, 0.74, 0.16, 1);
 }
 
 .contact-link__hover-art--resume {
@@ -10037,7 +10050,7 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 
 .contact-link:hover .contact-link__hover-art,
 .contact-link:focus-visible .contact-link__hover-art {
-  opacity: 1;
+  clip-path: inset(0 0 0 0);
 }
 
 @media (max-width: 800px) {

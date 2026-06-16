@@ -26,26 +26,28 @@ test("page source presents Kai identity and removes original-owner identity", as
   assert.doesNotMatch(publicSource, /EIDDIE|Eiddie|贾永硕|Jia Yongshuo|eiddiedev/);
 });
 
-test("page source contains all collaboration labels", async () => {
+test("page source contains one badge per collaboration logo", async () => {
   const html = await readSource("index.html");
   const partners = [
     "恒洁",
     "李宁",
     "New Balance",
-    "OPPO Find N6",
-    "OPPO 一加",
-    "小米 Pad",
+    "OPPO",
+    "一加",
+    "小米",
     "雷士",
     "掌阅",
     "西门子",
-    "骁龙 vivo",
-    "骁龙 OPPO",
-    "骁龙小米",
+    "vivo",
   ];
 
   for (const partner of partners) {
     assert.match(html, new RegExp(partner, "i"));
   }
+
+  const badgeUrls = [...html.matchAll(/class="tool-badge[^"]*"[^>]+--icon:url\('([^']+)'\)/g)].map((match) => match[1]);
+  assert.equal(badgeUrls.length, 10);
+  assert.equal(new Set(badgeUrls).size, 10);
 });
 
 test("projects are exactly four hover-only collaboration cards", async () => {
