@@ -9801,9 +9801,11 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 }
 
 .issue-section--skills .tool-badge {
+  --badge-accent: rgba(255, 255, 255, 0.9);
   --badge-width: clamp(5.4rem, 7.2vw, 6.8rem);
   --badge-height: clamp(3.6rem, 5vw, 4.8rem);
   --icon-size: calc(100% - 0.8rem);
+  isolation: isolate;
   border-radius: 1.15rem;
   background: transparent;
   border-color: transparent;
@@ -9814,7 +9816,36 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   animation: none !important;
 }
 
+.issue-section--skills .tool-badge::before {
+  content: "";
+  position: absolute;
+  inset: -0.32rem;
+  z-index: 0;
+  border-radius: calc(1.15rem + 0.32rem);
+  background:
+    radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--badge-accent) 52%, transparent), transparent 62%),
+    linear-gradient(135deg, color-mix(in srgb, var(--badge-accent) 24%, transparent), rgba(255, 255, 255, 0.02));
+  border: 1px solid color-mix(in srgb, var(--badge-accent) 42%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--badge-accent) 18%, transparent) inset,
+    0 0 26px color-mix(in srgb, var(--badge-accent) 38%, transparent),
+    0 14px 28px rgba(0, 0, 0, 0.32);
+  opacity: 0;
+  transform: scale(0.84);
+  filter: blur(0.2px);
+  transition:
+    opacity 220ms ease,
+    transform 280ms cubic-bezier(0.2, 0.9, 0.2, 1),
+    box-shadow 260ms ease;
+}
+
+.issue-section--skills .tool-badge::after {
+  z-index: 2;
+}
+
 .issue-section--skills .tool-badge__icon {
+  position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
   background: center / contain no-repeat var(--icon) !important;
@@ -9831,11 +9862,17 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 
 .issue-section--skills .tool-badge:hover,
 .issue-section--skills .tool-badge:focus-visible {
-  background: rgba(255, 255, 255, 0.052);
-  border-color: rgba(255, 255, 255, 0.16);
+  background: color-mix(in srgb, var(--badge-accent) 10%, rgba(255, 255, 255, 0.052));
+  border-color: color-mix(in srgb, var(--badge-accent) 36%, rgba(255, 255, 255, 0.16));
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.04) inset,
-    0 0 26px rgba(255, 255, 255, 0.08);
+    0 0 30px color-mix(in srgb, var(--badge-accent) 30%, transparent);
+}
+
+.issue-section--skills .tool-badge:hover::before,
+.issue-section--skills .tool-badge:focus-visible::before {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .issue-section--skills .tool-badge:hover .tool-badge__icon,
@@ -9849,16 +9886,27 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
   transform: scale(1.07);
 }
 
-.tool-badge--1 { top: 33%; left: 16%; right: auto; bottom: auto; }
-.tool-badge--2 { top: 24%; left: 37%; right: auto; bottom: auto; }
-.tool-badge--3 { top: 30%; left: 61%; right: auto; bottom: auto; }
-.tool-badge--4 { top: 25%; left: 82%; right: auto; bottom: auto; }
-.tool-badge--5 { top: 50%; left: 25%; right: auto; bottom: auto; }
-.tool-badge--6 { top: 49%; left: 50%; right: auto; bottom: auto; }
-.tool-badge--7 { top: 50%; left: 75%; right: auto; bottom: auto; }
-.tool-badge--8 { top: 71%; left: 18%; right: auto; bottom: auto; }
-.tool-badge--9 { top: 72%; left: 48%; right: auto; bottom: auto; }
-.tool-badge--10 { top: 71%; left: 78%; right: auto; bottom: auto; }
+.tool-badge--1 { --badge-accent: #3f70d8; top: 33%; left: 16%; right: auto; bottom: auto; }
+.tool-badge--2 { --badge-accent: #f6f6f6; top: 24%; left: 37%; right: auto; bottom: auto; }
+.tool-badge--3 { --badge-accent: #e43737; top: 30%; left: 61%; right: auto; bottom: auto; }
+.tool-badge--4 { --badge-accent: #006b33; top: 25%; left: 82%; right: auto; bottom: auto; }
+.tool-badge--5 { --badge-accent: #ef3737; top: 50%; left: 25%; right: auto; bottom: auto; }
+.tool-badge--6 { --badge-accent: #b8b8b8; top: 49%; left: 50%; right: auto; bottom: auto; }
+.tool-badge--7 { --badge-accent: #ffffff; top: 50%; left: 75%; right: auto; bottom: auto; }
+.tool-badge--8 { --badge-accent: #f5f5f5; top: 71%; left: 18%; right: auto; bottom: auto; }
+.tool-badge--9 { --badge-accent: #00a6d6; top: 72%; left: 48%; right: auto; bottom: auto; }
+.tool-badge--10 { --badge-accent: #7bdcff; top: 71%; left: 78%; right: auto; bottom: auto; }
+
+.issue-section--skills .tool-badge--1 { --badge-accent: #3f70d8; }
+.issue-section--skills .tool-badge--2 { --badge-accent: #f6f6f6; }
+.issue-section--skills .tool-badge--3 { --badge-accent: #e43737; }
+.issue-section--skills .tool-badge--4 { --badge-accent: #006b33; }
+.issue-section--skills .tool-badge--5 { --badge-accent: #ef3737; }
+.issue-section--skills .tool-badge--6 { --badge-accent: #b8b8b8; }
+.issue-section--skills .tool-badge--7 { --badge-accent: #ffffff; }
+.issue-section--skills .tool-badge--8 { --badge-accent: #f5f5f5; }
+.issue-section--skills .tool-badge--9 { --badge-accent: #00a6d6; }
+.issue-section--skills .tool-badge--10 { --badge-accent: #7bdcff; }
 
 .tool-badge--3,
 .tool-badge--9 {
@@ -9939,7 +9987,7 @@ body.is-low-memory-device .project-modal__proof-sheet-backdrop {
 .kai-project-card__logo {
   position: absolute !important;
   z-index: 4;
-  top: 50% !important;
+  top: 45% !important;
   left: 50% !important;
   width: 72%;
   height: 42%;
