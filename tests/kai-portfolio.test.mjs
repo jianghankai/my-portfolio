@@ -17,6 +17,10 @@ test("page source presents Kai identity and removes original-owner identity", as
 
   assert.match(html, /KAI/);
   assert.match(html, /姜益栋/);
+  assert.match(html, /Issue 03 \/ Personal Dossier/);
+  assert.match(html, /Issue 04 \/ Collaboration Network/);
+  assert.match(html, /href="#about">Dossier</);
+  assert.match(html, /href="#skills">Partners</);
   assert.match(html, /Knowledge/);
   assert.match(html, /Analyze/);
   assert.match(html, /Innovate/);
