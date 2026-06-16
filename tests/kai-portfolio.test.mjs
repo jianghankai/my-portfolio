@@ -55,14 +55,16 @@ test("projects are exactly four hover-only collaboration cards", async () => {
   const cardCount = (html.match(/class="project-card reveal"/g) ?? []).length;
 
   assert.equal(cardCount, 4);
-  assert.match(html, /骁龙 vivo/);
-  assert.match(html, /骁龙 OPPO/);
-  assert.match(html, /骁龙小米/);
-  assert.match(html, /恒洁/);
+  assert.match(html, /Snapdragon vivo/);
+  assert.match(html, /Snapdragon OPPO/);
+  assert.match(html, /Snapdragon Xiaomi/);
+  assert.match(html, /HEGII/);
   assert.match(html, /\/kai\/projects\/vivo\.webp/);
   assert.match(html, /\/kai\/projects\/oppo\.webp/);
   assert.match(html, /\/kai\/projects\/xiaomi\.jpg/);
   assert.match(html, /\/kai\/projects\/hengjie\.webp/);
+  assert.match(html, /\/kai\/logos\/oppo\.svg/);
+  assert.doesNotMatch(html, /悬停查看项目画面|Hover to reveal project imagery/);
   assert.doesNotMatch(html, /id="project-modal"/);
   assert.doesNotMatch(script, /button\.addEventListener\("click", \(\) => openModal/);
 });
